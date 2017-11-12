@@ -315,6 +315,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
+    init.safailnet.rc
 
 PRODUCT_PACKAGES += \
     init.class_main.sh \
