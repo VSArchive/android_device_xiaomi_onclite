@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     GCam
 
+ # Charger Images
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
