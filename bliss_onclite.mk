@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Aosp stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+
+# Inherit gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation res
