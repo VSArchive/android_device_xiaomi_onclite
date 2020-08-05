@@ -425,6 +425,9 @@
      <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
      <bool name="config_displayBlanksAfterDoze">false</bool>
 
+     <!-- Whether device has a notch -->
+     <bool name="config_haveNotch">true</bool>
+
      <!-- Lawnchair -->
      <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
 
