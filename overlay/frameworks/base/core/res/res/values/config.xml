@@ -439,4 +439,6 @@
      <!-- Whether to use in-built Screen Record service -->
      <bool name="config_showScreenRecord">true</bool>
 
+     <!-- Vowifi -->
+     <bool name="config_hasVowifi">true</bool>
 </resources>
