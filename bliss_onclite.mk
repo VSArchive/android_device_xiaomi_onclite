@@ -12,17 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common Aosp stuff.
+# Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Inherit gapps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
-TARGET_GAPPS_ARCH := arm64
-
-# Pre Build apps
-IS_PHONE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
+# Use Lawnchair
 TARGET_USES_LAWNCHAIR := true
 
 # Bootanimation res
