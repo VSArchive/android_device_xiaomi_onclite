@@ -19,6 +19,9 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+   PixelOverlay
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Screen density
