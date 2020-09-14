@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
+# Inherit Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # Use Lawnchair
 TARGET_USES_LAWNCHAIR := true
 
