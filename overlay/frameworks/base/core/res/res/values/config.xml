@@ -429,6 +429,9 @@
      <!-- Lawnchair -->
      <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
 
+    <!-- Default refresh rate. Here 1 is for 60Hz. -->
+    <integer name="config_defaultRefreshRate">1</integer>
+
      <!-- System info -->
      <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
      <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
