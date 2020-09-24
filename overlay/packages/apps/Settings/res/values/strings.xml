@@ -13,8 +13,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="bliss_maintainer">Vineel Sai</string>
-    
-    <bool name="config_showChargingCycles">true</bool>
 
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
