@@ -34,6 +34,7 @@ cc_library_shared {
         "liblog",
     ],
     include_dirs: [
+        "libnativehelper/include/nativehelper",
         ".",
     ],
     header_libs: [
